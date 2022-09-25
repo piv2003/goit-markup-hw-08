@@ -1,0 +1,28 @@
+// utils styles
+@import "./utils/variable";
+@import "./utils/visually-hidden";
+
+// base styles
+@import "./base/reset";
+@import "./base/common";
+
+// layout styles
+@import "./layouts/header";
+@import "./layouts/navigation";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/our-business";
+@import "./layouts/our-team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/portfolio";
+
+// component styles
+@import "./components/modal";
+@import "./components/backdrop";
+@import "./components/checkbox";
+
+
+
+
+

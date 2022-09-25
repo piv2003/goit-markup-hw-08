@@ -1,0 +1,30 @@
+.modal-form-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.modal-form-checkbox__input:checked+.modal-form-checkbox__custom {
+  outline-color: var(--accent-color);
+  background-color: var(--accent-color);
+}
+
+.modal-form-checkbox__custom {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  outline: 2px solid var(--text-black-color);
+  outline-offset: -2px;
+  border-radius: 2px;
+  transition: outline-color var(--timing-function),
+    background-color var(--timing-function);
+}
+
+.modal-form-checkbox__icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  fill: var(--basic-white);
+  transition: fill var(--timing-function);
+}

@@ -1,0 +1,45 @@
+.section--nopadding {
+  padding-top: 0;
+}
+
+.section__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42/36);
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.our-business {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.our-business__item {
+  position: relative;
+}
+
+.our-business__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-business__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  font-weight: 700;
+  line-height: calc(16/14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: $our-business-text;
+}
