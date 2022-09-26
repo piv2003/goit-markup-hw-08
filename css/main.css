@@ -69,14 +69,6 @@ img {
   height: auto;
 }
 
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -1139,4 +1131,12 @@ img {
   fill: var(--basic-white);
   -webkit-transition: fill var(--timing-function);
   transition: fill var(--timing-function);
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }/*# sourceMappingURL=main.css.map */
