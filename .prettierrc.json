@@ -6,14 +6,17 @@
   "jsxBracketSameLine": false,
   "jsxSingleQuote": false,
   "printWidth": 120,
-  "proseWrap": "never",
+  "proseWrap": "always",
   "quoteProps": "as-needed",
   "requirePragma": false,
   "semi": true,
-  "singleQuote": false,
+  "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "all",
-  "useTabs": true,
+  "useTabs": false,
   "vueIndentScriptAndStyle": false,
   "singleAttributePerLine": false
 }
+
+
+  
