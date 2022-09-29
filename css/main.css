@@ -1153,4 +1153,51 @@ img {
   .container {
     max-width: 1200px;
   }
+}
+
+.menu-button {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 0;
+  margin: 0;
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+  z-index: 370;
+}
+.menu-button .icon-cross {
+  display: none;
+}
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+.menu-button:focus, .menu-button:hover {
+  fill: var(--accent-color);
+}
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
+
+.icon-menu {
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+.menu-button.is-open .icon-menu {
+  opacity: 0;
+}
+
+.icon-cross {
+  opacity: 0;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+.menu-button.is-open .icon-cross {
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
