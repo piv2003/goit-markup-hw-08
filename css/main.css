@@ -70,8 +70,14 @@ img {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .header {
@@ -448,7 +454,14 @@ img {
 }
 
 .section--nopadding {
+  display: none;
   padding-top: 0;
+}
+@media screen and (min-width: 1200px) {
+  .section--nopadding {
+    display: block;
+    padding-top: 0;
+  }
 }
 
 .section__title {
@@ -476,8 +489,7 @@ img {
 .our-business__item {
   position: relative;
 }
-
-.our-business__item:not(:last-child) {
+.our-business__item__item:not(:last-child) {
   margin-right: 30px;
 }
 
