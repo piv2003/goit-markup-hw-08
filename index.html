@@ -21,7 +21,7 @@
       </a>
       <!-- menu switcher -->
       <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg width="40" height="40 ">
+        <svg width="40" height="40">
           <use href="./images/svg-icons/icons.svg#icon-menu"></use>
         </svg>
       </button>
@@ -425,7 +425,7 @@
     </div>
   </footer>
 
-  <!-- Modal window -->
+  <!-- Modal window start-->
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <form class="modal-form">
@@ -456,7 +456,7 @@
           <textarea class="modal-form__textarea" name="comment" id="comment" rows="9"
             placeholder="Введіть текст"></textarea>
         </div>
-        <!-- form-checkbox -->
+        <!-- checkbox-form start-->
         <label class="modal-form-checkbox">
           <input class="modal-form-checkbox__input visually-hidden" type="checkbox" name="terms of use" />
           <span class="modal-form-checkbox__custom">
@@ -477,6 +477,45 @@
       </button>
     </div>
   </div>
+  <!-- modal-window-end -->
+
+  <!-- mobile menu start-->
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg width="40" height="40">
+        <use href="./images/svg-icons/icons.svg#icon-cross"></use>
+      </svg>
+    </button>
+    <div class="menu-container__nav">
+      <ul class="mobile-nav list">
+        <li class="mobile-nav__item">
+          <a href="./index.html" class="mobile-nav__link mobile-nav__link--current link">Студія</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="./portfolio.html" class="mobile-nav__link link">Портфоліо</a>
+        </li>
+        <li class="mobile-nav__item"><a href="#" class="mobile-nav__link link">Контакти</a></li>
+      </ul>
+    </div>
+
+    <ul class="mobile-contact list">
+      <li class="mobile-contact__item">
+        <a href="tel:+380961111111" class="mobile-contact__link mobile-contact__link--tel link">+38 096 111 11
+          11</a>
+      </li>
+      <li class="mobile-contact__item">
+        <a href="mailto:info@devstudio.com"
+          class="mobile-contact__link mobile-contact__link--mail link">info@devstudio.com</a>
+      </li>
+    </ul>
+    <ul class="social-line list">
+      <li class="social-line__item"><a href="" class="social-line__link link">Instagram</a></li>
+      <li class="social-line__item"><a href="" class="social-line__link link">Twitter</a></li>
+      <li class="social-line__item"><a href="" class="social-line__link link">Facebook</a></li>
+      <li class="social-line__item"><a href="" class="social-line__link link">LinkedIn</a></li>
+    </ul>
+  </div>
+  <!-- scripts -->
   <script src="./js/modal.js"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
