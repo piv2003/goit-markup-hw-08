@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="UTF-8" />
@@ -150,11 +150,17 @@
 
     <!--section our-team-->
     <section class="section section--background">
+      <h2 class="section__title">Наша команда</h2>
       <div class="container">
-        <h2 class="section__title">Наша команда</h2>
         <ul class="our-team list">
           <li class="our-team__item">
-            <img src="./images/studio/ihor.jpg" width="270" height="260" alt="photo ihor" />
+            <picture>
+              <source srcset="./images/desktop/igor.jpg 1x, ./images/desktop/igor@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+              <source srcset="./images/tablet/igor.jpg 1x, ./images/tablet/igor@2x.jpg 2x" media="(min-width: 768px)" />
+              <img class="team__list_img" srcset="./images/mobil/igor.jpg 1x, ./images/mobil/igor@2x.jpg 2x"
+                src="./images/mobil/igor.jpg" alt="photo Ihor Demyanenko" />
+            </picture>
             <div class="our-team__indents">
               <h3 class="our-team__title">Ігор Дем'яненко</h3>
               <p class="our-team__text">Product Designer</p>
@@ -162,36 +168,47 @@
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
                     aria-label="icon instagram">
-                    <svg class="social-media__icon" width="20" height="20">
+                    <svg aria-label="instagram icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-instagram"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon twitter">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="twiter icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-twitter"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon facebook">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="facebook icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-facebook"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon linkedin">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="linkedin icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-linkedin"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
           </li>
           <li class="our-team__item">
-            <img src="./images/studio/olga.jpg" width="270" height="260" alt="photo olga" />
+            <picture>
+              <source srcset="./images/desktop/olga.jpg 1x, ./images/desktop/olga@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+              <source srcset="./images/tablet/olga.jpg 1x, ./images/tablet/olga@2x.jpg 2x" media="(min-width: 768px)" />
+              <img class="team__list_img" srcset="./images/mobil/olga.jpg 1x, ./images/mobil/olga@2x.jpg 2x"
+                src="./images/mobil/olga.jpg" alt="photo Olga Repina" />
+            </picture>
+
             <div class="our-team__indents">
               <h3 class="our-team__title">Ольга Рєпіна</h3>
               <p class="our-team__text">Frontend Developer</p>
@@ -199,36 +216,48 @@
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
                     aria-label="icon instagram">
-                    <svg class="social-media__icon" width="20" height="20">
+                    <svg aria-label="instagram icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-instagram"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon twitter">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="twiter icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-twitter"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon facebook">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="facebook icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-facebook"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon linkedin">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="linkedin icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-linkedin"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
           </li>
           <li class="our-team__item">
-            <img src="./images/studio/nikolay.jpg" width="270" height="260" alt="photo nikolay" />
+            <picture>
+              <source srcset="./images/desktop/mikola.jpg 1x, ./images/desktop/mikola@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+              <source srcset="./images/tablet/mikola.jpg 1x, ./images/tablet/mikola@2x.jpg 2x"
+                media="(min-width: 768px)" />
+              <img class="team__list_img" srcset="./images/mobil/mikola.jpg 1x, ./images/mobil/mikola@2x.jpg 2x"
+                src="./images/mobil/mikola.jpg" alt="photo Mykola Tarasov" />
+            </picture>
+
             <div class="our-team__indents">
               <h3 class="our-team__title">Микола Тарасов</h3>
               <p class="our-team__text">Marketing</p>
@@ -236,36 +265,48 @@
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
                     aria-label="icon instagram">
-                    <svg class="social-media__icon" width="20" height="20">
+                    <svg aria-label="instagram icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-instagram"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon twitter">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="twiter icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-twitter"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon facebook">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="facebook icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-facebook"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon linkedin">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="linkedin icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-linkedin"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
           </li>
           <li class="our-team__item">
-            <img src="./images/studio/michael.jpg" width="270" height="260" alt="photo michael" />
+            <picture>
+              <source srcset="./images/desktop/mihailo.jpg 1x, ./images/desktop/mihailo@2x.jpg 2x"
+                media="(min-width: 1200px)" />
+              <source srcset="./images/tablet/mihailo.jpg 1x, ./images/tablet/mihailo@2x.jpg 2x"
+                media="(min-width: 768px)" />
+              <img class="team__list_img" srcset="./images/mobil/mihailo.jpg 1x, ./images/mobil/mihailo@2x.jpg 2x"
+                src="./images/mobil/mihailo.jpg" alt="Mykhailo Yermakov" />
+            </picture>
+
             <div class="our-team__indents">
               <h3 class="our-team__title">Михайло Єрмаков</h3>
               <p class="our-team__text">UI Designer</p>
@@ -273,30 +314,34 @@
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
                     aria-label="icon instagram">
-                    <svg class="social-media__icon" width="20" height="20">
+                    <svg aria-label="instagram icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-instagram"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon twitter">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="twiter icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-twitter"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon facebook">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="facebook icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-facebook"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-media__item">
                   <a class="social-media__link" href="#" target="_blank" rel="noopener nofollow noreferrer"
-                    aria-label="icon linkedin">
-                    <svg class="social-media__icon" width="20" height="20">
+                    aria-label="icon instagram">
+                    <svg aria-label="linkedin icon" class="social-media__icon">
                       <use href="./images/svg-icons/icons.svg#icon-linkedin"></use>
-                    </svg></a>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -304,6 +349,12 @@
         </ul>
       </div>
     </section>
+
+
+
+
+
+
 
     <!--section clients-->
     <section class="section">
