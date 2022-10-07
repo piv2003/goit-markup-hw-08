@@ -14,9 +14,6 @@
 }
 
 .our-team {
-  // display: flex;
-  // flex-direction: column;
-  // gap: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -30,7 +27,6 @@
 }
 
 .our-team__indents {
-  // padding: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -76,18 +72,12 @@
   .team__list_img {
     width: 270px;
   }
-
-  // .our-team {
-  //   padding-top: 94px;
-  //   padding-bottom: 94px;
-  // }
 }
 
 .social-media {
   display: flex;
   justify-content: center;
   margin-top: 16px;
-  // column-gap: 10px;
 }
 
 .social-media-item:not(:last-child) {
