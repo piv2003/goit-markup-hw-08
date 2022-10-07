@@ -772,26 +772,39 @@ img {
   color: var(--basic-white);
 }
 
-.address {
-  text-decoration: none;
+.footer-address {
   font-style: normal;
-  font-size: 14px;
+}
+
+.footer-address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-address__link {
   line-height: 1.7142857143;
+  font-style: normal;
   letter-spacing: 0.03em;
   color: var(--basic-white);
+  -webkit-transition: color var(--timing-function);
+  transition: color var(--timing-function);
 }
-.address__text {
-  margin-bottom: 9px;
+.footer-address__link:hover, .footer-address__link:focus {
+  color: var(--accent-color);
 }
-.address__item:first-child {
-  margin-bottom: 9px;
+
+.footer-indent {
+  margin-right: 70px;
 }
-.address__link {
+
+.address-list__link {
+  line-height: 1.7142857143;
+  font-style: normal;
+  letter-spacing: 0.03em;
   color: #acacb0;
   -webkit-transition: color var(--timing-function);
   transition: color var(--timing-function);
 }
-.address__link:hover, .address__link:focus {
+.address-list__link:hover, .address-list__link:focus {
   color: var(--accent-color);
 }
 
