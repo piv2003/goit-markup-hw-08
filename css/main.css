@@ -80,6 +80,24 @@ img {
   }
 }
 
+.section__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.1785714286;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .section__title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    line-height: 1.1666666667;
+  }
+}
+
 .header {
   border-bottom: 1px solid #ececec;
   position: relative;
@@ -476,17 +494,6 @@ img {
   }
 }
 
-.section__title {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1666666667;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
 .our-business {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -530,17 +537,6 @@ img {
 
 .section--background {
   background-color: var(--background-our-team);
-}
-
-.section__title {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1666666667;
-  letter-spacing: 0.03em;
-  text-align: center;
 }
 
 .our-team {
@@ -651,23 +647,6 @@ img {
   width: 20px;
   height: 20px;
   fill: currentColor;
-}
-
-.section__title {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.6785714286;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-@media screen and (min-width: 1200px) {
-  .section__title {
-    font-size: 36px;
-    line-height: 1.1666666667;
-  }
 }
 
 .clients {
