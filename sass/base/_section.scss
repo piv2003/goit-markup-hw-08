@@ -24,3 +24,17 @@
     line-height: calc(42/36);
   }
 }
+
+.section--nopadding {
+  display: none;
+  padding-top: 0;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding-top: 0;
+  }
+}
+
+.section--background {
+  background-color: var(--background-our-team);
+}
