@@ -676,16 +676,18 @@ img {
   margin: -15px;
 }
 .clients__item {
-  width: 50%;
+  height: 92px;
+  width: calc((100% - 60px) / 2);
+  margin: 15px;
 }
 @media screen and (min-width: 768px) {
   .clients__item {
-    width: 33.3333333333%;
+    width: calc(100% - 542px);
   }
 }
 @media screen and (min-width: 1200px) {
   .clients__item {
-    width: 16.6666666667%;
+    width: calc((100% - 180px) / 6);
   }
 }
 .clients__link {
@@ -698,8 +700,8 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 92px;
-  margin: 15px;
+  height: 100%;
+  width: 100%;
   color: var(--social-icons-grey);
   border: 1px solid var(--social-icons-grey);
   border-radius: 4px;
