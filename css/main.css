@@ -751,15 +751,13 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
   }
   .footer__contacts {
     margin-bottom: 0;
+    margin-right: 70px;
   }
 }
 
@@ -821,6 +819,7 @@ img {
 @media screen and (min-width: 1200px) {
   .join {
     margin-bottom: 0;
+    margin-right: 93px;
   }
 }
 
