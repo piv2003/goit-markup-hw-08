@@ -127,15 +127,30 @@
         <h2 class="section__title">Чим ми займаємося</h2>
         <ul class="our-business list">
           <li class="our-business__item">
-            <img src="./images/studio/block-diagram.jpg" width="370" height="294" alt="block diagram" />
+            <picture>
+              <source srcset="./images/about/img-1@1x.webp 1x, ./images/about/img-1@2x.webp 2x" type="image/webp">
+              <source srcset="./images/about/img-1@1x.jpg 1x, ./images/about/img-1@2x.jpg 2x" type="image/jpg">
+              <img class="img" src="./images/about/img-1@1x.jpg" alt="writing HTML&CSS code on a computer" width="370"
+                height="294" loading="lazy">
+            </picture>
             <p class="our-business__text">Десктопні додатки</p>
           </li>
           <li class="our-business__item">
-            <img src="./images/studio/adaptive-design.jpg" width="370" height="294" alt="adaptive design" />
+            <picture>
+              <source srcset="./images/about/img-2@1x.webp 1x, ./images/about/img-2@2x.webp 2x" type="image/webp">
+              <source srcset="./images/about/img-2@1x.jpg 1x, ./images/about/img-2@2x.jpg 2x" type="image/jpg">
+              <img class="img" src="./images/about/img-2@1x.jpg" alt="development of a mobile application on a computer"
+                width="370" height="294" loading="lazy">
+            </picture>
             <p class="our-business__text">Мобільні додатки</p>
           </li>
           <li class="our-business__item">
-            <img src="./images/studio/color-scheme.jpg" width="370" height="294" alt="color scheme" />
+            <picture>
+              <source srcset="./images/about/img-3@1x.webp 1x, ./images/about/img-3@2x.webp 2x" type="image/webp">
+              <source srcset="./images/about/img-3@1x.jpg 1x, ./images/about/img-3@2x.jpg 2x" type="image/jpg">
+              <img class="img" src="./images/about/img-3@1x.jpg" alt="a person chooses a color on a mobile tablet"
+                width="370" height="294" loading="lazy">
+            </picture>
             <p class="our-business__text">Дизайнерські рішення</p>
           </li>
         </ul>
@@ -146,14 +161,26 @@
     <section class="section section--background">
       <div class="container">
         <h2 class="section__title">Наша команда</h2>
-        <ul class="our-team list">
-          <li class="our-team__item">
+        <ul class="our-team grid-set list">
+          <li class="our-team__item grid-set-item">
             <picture>
-              <source srcset="./images/desktop/igor.jpg 1x, ./images/desktop/igor@2x.jpg 2x"
-                media="(min-width: 1200px)" />
-              <source srcset="./images/tablet/igor.jpg 1x, ./images/tablet/igor@2x.jpg 2x" media="(min-width: 768px)" />
-              <img class="team__list_img" srcset="./images/mobil/igor.jpg 1x, ./images/mobil/igor@2x.jpg 2x"
-                src="./images/mobil/igor.jpg" alt="photo Ihor Demyanenko" />
+              <!-- Desktop screen -->
+              <source media="(min-width: 1200px)"
+                srcset="./images/team/img-1_lg-@1x.webp 1x, ./images/team/img-1_lg-@2x.webp 2x" type="image/webp">
+              <source media="(min-width:1200px)"
+                srcset="./images/team/img-1_lg-@1x.jpg 1x, ./images/team/img-1_lg-@2x.jpg 2x" type="image/jpg">
+              <!-- Tablet screen -->
+              <source media="(min-width: 768px)"
+                srcset="./images/team/img-1_md-@1x.webp 1x, ./images/team/img-1_md-@2x.webp 2x" type="image/webp">
+              <source media="(min-width:768px)"
+                srcset="./images/team/img-1_md-@1x.jpg 1x, ./images/team/img-1_md-@2x.jpg 2x" type="image/jpg">
+              <!-- Mobile screen -->
+              <source media="(max-width: 767px)"
+                srcset="./images/team/img-1_sm-@1x.webp 1x, ./images/team/img-1_sm-@2x.webp 2x" type="image/webp">
+              <source media="(max-width:767px)"
+                srcset="./images/team/img-1_sm-@1x.jpg 1x, ./images/team/img-1_sm-@2x.jpg 2x" type="image/jpg">
+              <img class="img" src="./images/team/img-1_sm-@1x.jpg" alt="Photo by Ihor Demyanenko" width="450"
+                height="460" loading="lazy">
             </picture>
             <div class="our-team__indents">
               <h3 class="our-team__title">Ігор Дем'яненко</h3>
@@ -194,13 +221,25 @@
               </ul>
             </div>
           </li>
-          <li class="our-team__item">
+          <li class="our-team__item grid-set-item">
             <picture>
-              <source srcset="./images/desktop/olga.jpg 1x, ./images/desktop/olga@2x.jpg 2x"
-                media="(min-width: 1200px)" />
-              <source srcset="./images/tablet/olga.jpg 1x, ./images/tablet/olga@2x.jpg 2x" media="(min-width: 768px)" />
-              <img class="team__list_img" srcset="./images/mobil/olga.jpg 1x, ./images/mobil/olga@2x.jpg 2x"
-                src="./images/mobil/olga.jpg" alt="photo Olga Repina" />
+              <!-- Desktop screen -->
+              <source media="(min-width: 1200px)"
+                srcset="./images/team/img-2_lg-@1x.webp 1x, ./images/team/img-2_lg-@2x.webp 2x" type="image/webp">
+              <source media="(min-width:1200px)"
+                srcset="./images/team/img-2_lg-@1x.jpg 1x, ./images/team/img-2_lg-@2x.jpg 2x" type="image/jpg">
+              <!-- Tablet screen -->
+              <source media="(min-width: 768px)"
+                srcset="./images/team/img-2_md-@1x.webp 1x, ./images/team/img-2_md-@2x.webp 2x" type="image/webp">
+              <source media="(min-width:768px)"
+                srcset="./images/team/img-2_md-@1x.jpg 1x, ./images/team/img-2_md-@2x.jpg 2x" type="image/jpg">
+              <!-- Mobile screen -->
+              <source media="(max-width: 767px)"
+                srcset="./images/team/img-2_sm-@1x.webp 1x, ./images/team/img-2_sm-@2x.webp 2x" type="image/webp">
+              <source media="(max-width:767px)"
+                srcset="./images/team/img-2_sm-@1x.jpg 1x, ./images/team/img-2_sm-@2x.jpg 2x" type="image/jpg">
+              <img class="img" src="./images/team/img-2_sm-@1x.jpg" alt="Photo by Olga Repina" width="450" height="460"
+                loading="lazy">
             </picture>
             <div class="our-team__indents">
               <h3 class="our-team__title">Ольга Рєпіна</h3>
@@ -241,14 +280,25 @@
               </ul>
             </div>
           </li>
-          <li class="our-team__item">
+          <li class="our-team__item grid-set-item">
             <picture>
-              <source srcset="./images/desktop/mikola.jpg 1x, ./images/desktop/mikola@2x.jpg 2x"
-                media="(min-width: 1200px)" />
-              <source srcset="./images/tablet/mikola.jpg 1x, ./images/tablet/mikola@2x.jpg 2x"
-                media="(min-width: 768px)" />
-              <img class="team__list_img" srcset="./images/mobil/mikola.jpg 1x, ./images/mobil/mikola@2x.jpg 2x"
-                src="./images/mobil/mikola.jpg" alt="photo Mykola Tarasov" />
+              <!-- Desktop screen -->
+              <source media="(min-width: 1200px)"
+                srcset="./images/team/img-3_lg-@1x.webp 1x, ./images/team/img-3_lg-@2x.webp 2x" type="image/webp">
+              <source media="(min-width:1200px)"
+                srcset="./images/team/img-3_lg-@1x.jpg 1x, ./images/team/img-3_lg-@2x.jpg 2x" type="image/jpg">
+              <!-- Tablet screen -->
+              <source media="(min-width: 768px)"
+                srcset="./images/team/img-3_md-@1x.webp 1x, ./images/team/img-3_md-@2x.webp 2x" type="image/webp">
+              <source media="(min-width:768px)"
+                srcset="./images/team/img-3_md-@1x.jpg 1x, ./images/team/img-3_md-@2x.jpg 2x" type="image/jpg">
+              <!-- Mobile screen -->
+              <source media="(max-width: 767px)"
+                srcset="./images/team/img-3_sm-@1x.webp 1x, ./images/team/img-3_sm-@2x.webp 2x" type="image/webp">
+              <source media="(max-width:767px)"
+                srcset="./images/team/img-3_sm-@1x.jpg 1x, ./images/team/img-3_sm-@2x.jpg 2x" type="image/jpg">
+              <img class="img" src="./images/team/img-3_sm-@1x.jpg" alt="Photo by Mykola Tarasov" width="450"
+                height="460" loading="lazy">
             </picture>
             <div class="our-team__indents">
               <h3 class="our-team__title">Микола Тарасов</h3>
@@ -289,14 +339,25 @@
               </ul>
             </div>
           </li>
-          <li class="our-team__item">
+          <li class="our-team__item grid-set-item">
             <picture>
-              <source srcset="./images/desktop/mihailo.jpg 1x, ./images/desktop/mihailo@2x.jpg 2x"
-                media="(min-width: 1200px)" />
-              <source srcset="./images/tablet/mihailo.jpg 1x, ./images/tablet/mihailo@2x.jpg 2x"
-                media="(min-width: 768px)" />
-              <img class="team__list_img" srcset="./images/mobil/mihailo.jpg 1x, ./images/mobil/mihailo@2x.jpg 2x"
-                src="./images/mobil/mihailo.jpg" alt="Mykhailo Yermakov" />
+              <!-- Desktop screen -->
+              <source media="(min-width: 1200px)"
+                srcset="./images/team/img-4_lg-@1x.webp 1x, ./images/team/img-4_lg-@2x.webp 2x" type="image/webp">
+              <source media="(min-width:1200px)"
+                srcset="./images/team/img-4_lg-@1x.jpg 1x, ./images/team/img-4_lg-@2x.jpg 2x" type="image/jpg">
+              <!-- Tablet screen -->
+              <source media="(min-width: 768px)"
+                srcset="./images/team/img-4_md-@1x.webp 1x, ./images/team/img-4_md-@2x.webp 2x" type="image/webp">
+              <source media="(min-width:768px)"
+                srcset="./images/team/img-4_md-@1x.jpg 1x, ./images/team/img-4_md-@2x.jpg 2x" type="image/jpg">
+              <!-- Mobile screen -->
+              <source media="(max-width: 767px)"
+                srcset="./images/team/img-4_sm-@1x.webp 1x, ./images/team/img-4_sm-@2x.webp 2x" type="image/webp">
+              <source media="(max-width:767px)"
+                srcset="./images/team/img-4_sm-@1x.jpg 1x, ./images/team/img-4_sm-@2x.jpg 2x" type="image/jpg">
+              <img class="img" src="./images/team/img-4_sm-@1x.jpg" alt="Photo by Mykhailo Yermakov" width="450"
+                height="460" loading="lazy">
             </picture>
             <div class="our-team__indents">
               <h3 class="our-team__title">Михайло Єрмаков</h3>
